@@ -178,6 +178,11 @@ a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
+
 pre,
 code,
 kbd,
@@ -6208,7 +6213,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #eeeeee !important;
+  background-color: #dddddd !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
